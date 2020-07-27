@@ -1,0 +1,51 @@
+name: justmenu
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_plugin_android_lifecycle: ^1.0.2
+  image_picker: ^0.6.7+2
+#  image_picker_for_web: ^0.1.0
+  amazon_s3_cognito: ^0.2.4
+  video_player: ^0.10.3
+  url_launcher: ^5.4.11
+  cupertino_icons: ^0.1.2
+  shared_preferences: ^0.5.6+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  date_format: ^1.0.8
+#  e2e:  ^0.2.1
+  pedantic: ^1.8.0
+
+  adhara_socket_io: ^0.4.1
+  http: ^0.12.0+4
+
+flutter:
+  #  plugin:
+  #    platforms:
+  #      android:
+  #        package: com.infitio.adharasocketio
+  #        pluginClass: AdharaSocketIoPlugin
+
+  uses-material-design: true
+
+#  assets:
+#    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-SemiBold.ttf
+          weight: 600
